@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define NAMES_FILE "USER_NAMES.txt"
+#define NAMES_FILE "USERNAMES.txt"
 #define SIZE 10
 
 FILE *fp_names;
@@ -53,4 +53,5 @@ int main()
 		printf("Name updated successfully. ");
 	}
 	return 0;
+
 }
